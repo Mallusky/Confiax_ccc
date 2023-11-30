@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="0dp" />
+    <solid android:color="@color/colorRoseTaupe" />
+    <stroke
+        android:color="@color/colorWhite" />
+
+    <gradient
+        android:gradientRadius="@dimen/material_emphasis_high_type"
+        android:startColor="@color/colorWhite"
+        android:centerColor="@color/colorRoseTaupe"
+        android:endColor="@color/colorWhite"
+        />
+</shape>

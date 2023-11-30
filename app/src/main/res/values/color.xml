@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPrimary">#28B463</color>
+    <color name="colorPrimaryDark">#1D8348</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTaupe">#937A76</color>
+    <color name="colorBeige">#C0B5AB</color>
+    <color name="colorMauveTaupe">#915F6D</color>
+    <color name="colorRoseTaupe">#E4ADBB</color>
+    <color name="semi_transparent_r">#20000000</color> // 50% Transparent
+
+
+    <array name="arc_colors_default">
+        <item>#1a2a6c</item>
+        <item>#b21f1f</item>
+        <item>#fdbb2d</item>
+    </array>
+
+</resources>

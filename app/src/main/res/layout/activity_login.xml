@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoportada">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:shadowColor="#F0D3DA"
+        android:textColor="@color/colorTaupe"
+        android:textColorHint="@color/colorTaupe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:password="true"
+        android:shadowColor="#F0D3DA"
+        android:textColor="@color/colorTaupe"
+        android:textColorHint="@color/colorTaupe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="lo"
+        android:text="Login"
+        android:textColor="@color/design_default_color_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/register"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="signup"
+        android:text="Register"
+        android:textColor="@color/design_default_color_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/lbFacebook"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_social_rounded"
+        android:backgroundTint="#75C15F80"
+        android:src="@drawable/facebookbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/lbGoogle"
+        android:layout_width="305dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logotipo"
+        android:layout_width="264dp"
+        android:layout_height="196dp"
+        android:src="@drawable/logoanim"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/maintitle"
+        android:layout_width="300dp"
+        android:layout_height="82dp"
+        android:text="Confiax"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="34sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+    <Button
+        android:id="@+id/imgBtShowPwd"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:background="@drawable/eyepwd2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

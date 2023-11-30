@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoportada"
+    android:orientation="vertical"
+    tools:context=".MenstrualCalendarActivity">
+
+    <com.stacktips.view.CustomCalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:layout_alignBottom="@+id/preferences"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="101dp"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </com.stacktips.view.CustomCalendarView>
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/preferences"
+        android:layout_marginStart="328dp"
+        android:layout_marginBottom="-70dp"
+        android:background="@android:drawable/ic_lock_power_off"
+        android:backgroundTint="@color/colorRoseTaupe"
+        android:onClick="logOut"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="57dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <Button
+        android:id="@+id/preferences"
+        android:layout_width="267dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="goToPreferences"
+        android:text="@string/preferences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="150dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <ImageView
+        android:id="@+id/photouser"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/calendar_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="73dp" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="480dp"
+        android:background="@drawable/textview_background"
+        android:hint="Nick"
+        android:textAlignment="center"
+        android:textColor="@color/colorMauveTaupe"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        tools:layout_conversion_absoluteHeight="34dp"
+        tools:layout_conversion_absoluteWidth="163dp" />
+
+
+</RelativeLayout>

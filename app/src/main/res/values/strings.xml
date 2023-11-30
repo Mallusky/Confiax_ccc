@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Confiax</string>
+    <string name="welcome">¡Bienvenido a Confiax!</string>
+    <string name="error_session">Error al iniciar sesión</string>
+    <string name="cancel_session">Cancelando acción...</string>
+    <string name="cancel_process">Proceso cancelado</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="facebook_app_id">721168276560335</string>
+    <string name="fb_login_protocol_scheme">fb721168276560335</string>
+    <string name="facebook_client_token">791eb4c42e43af0c84ff705d735f6273</string>
+    <string name="default_web_client_id">1028280898820-ut11pdloa99brnbdbmtoqo4lqkmf6cje.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
+    <string name="uid">Password</string>
+    <string name="preferences">Preferencias</string>
+
+    <string name="menstruation_length_label">¿Cuántos días te dura el periodo?</string>
+    <string name="period_length_label">¿Cada cuánto te viene el periodo?</string>
+    <string name="button_plus_label">+</string>
+    <string name="button_minus_label">-</string>
+    <string name="last_period_date_label">Fecha del último periodo</string>
+    <string name="pick_last_period_date">¿Cuándo fue tu último periodo?</string>
+    <string name="incoming_period_notification_label">Notificación de la próxima menstruación</string>
+    <string name="fertile_days_notification_label">Notificación de días fértiles</string>
+    <string name="ovulation_notification_label">Notificación de días de ovulación</string>
+    <string name="update_preferences">Actualizar</string>
+    <string name="go_to_preferences">Ir a Prefencias</string>
+    <string name="clear_calendar">Borrar calendario</string>
+    <string name="ovulation_notification_title">Hoy toca ovular</string>
+    <string name="ovulation_notification_text">Mañana ovulas</string>
+    <string name="fertile_notification_title">Hoy eres fértil</string>
+    <string name="fertile_notification_text">Mañana eres fértil</string>
+    <string name="period_notification_title">Hoy toca regla</string>
+    <string name="period_notification_text">¡Ojo! es probable que mañana te baje la regla</string>
+
+    <string name="pwd_caracter_esp">Al menos, debes de usar un caracter especial</string>
+    <string name="pwd_number_int">Al menos, debes de usar un número entero</string>
+    <string name="pwd_lower_case">Al menos, debes de usar una letra minúscula</string>
+    <string name="pwd_upper_case">Al menos, debes de usar una letra mayúscula</string>
+    <string name="pwd_length">La contraseña debe de tener al menos 6 caracteres</string>
+    <string name="pwd_no_spaces">No se permiten espacios</string>
+    <string name="invalid_pwd">La contraseña debe de tener al menos 6 caracteres, 1 letra, 1 número y 1 caracter especial</string>
+
+    <string name="empty_name">Debes rellenar el nombre</string>
+    <string name="empty_email">Debes rellenar el email</string>
+    <string name="empty_pwd">Debes rellenar la contraseña</string>
+    <string name="empty_birth">Debes rellenar la fecha de nacimiento</string>
+    <string name="signup_succes">¡¡¡Te has registrado con éxito!!!</string>
+    <string name="invalid_email">Email no válido</string>
+
+    <string name="login_w_FB">Te estás conectando a través de tu cuenta de Facebook</string>
+    <string name="login_w_Google">Te estás conectando a través de tu cuenta de Google</string>
+
+    <string name="alredy_exist_account">Ya existe un usuario con este email</string>
+    <string name="pwd_not_strong_enough">La contraseña no es suficientemente segura</string>
+
+    <string name="exception_two_periods">Error. Al menos debe de haber dos periodos</string>
+    <string name="exception_logout">No se pudo cerrar sesión. Vuelva a intentarlo.</string>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1028280898820",
+    "project_id": "confiax",
+    "storage_bucket": "confiax.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028280898820:android:4d1ff011db4852cd1cec51",
+        "android_client_info": {
+          "package_name": "com.ccc.confiax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028280898820-h1knmolnsocau1rfvf3guemuve3t39g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ccc.confiax",
+            "certificate_hash": "6fbc785fe5a4fb264497222c556319df42d7bae7"
+          }
+        },
+        {
+          "client_id": "1028280898820-ut11pdloa99brnbdbmtoqo4lqkmf6cje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqsgrzfYCSq0K2tbjRuuc60NNTo129lJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028280898820-ut11pdloa99brnbdbmtoqo4lqkmf6cje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
